@@ -2,7 +2,10 @@
  *  UCF COP3330 Fall 2021 Assignment 5 Solution
  *  Copyright 2021 Gianni Angelone
  */
-
+/*
+ *  UCF COP3330 Fall 2021 Assignment 5 Solution
+ *  Copyright 2021 Gianni Angelone
+ */
 /*
 This assignment shows the idea of information being passed through a non-reference function where the argument remains constant.
 */
