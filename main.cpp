@@ -9,15 +9,18 @@ This assignment shows the idea of information being passed through a non-referen
 
 #include "std_lib_facilities.h" //Here we include our given header file.
 void Example1(const int x){ //Passing by value examples
-    cout<<x*5<<endl;
+    cout<<x*5<<endl; //Multiplication
 }
-void Example2(int integer){
+void Example2(int integer){ //Constant
     integer = 13;
     cout<<integer<<endl;
 }
-void Example3(int integer1){
+void Example3(int integer1){ //Addition
     integer1 = 25;
     cout<<integer1+25<<endl;
+}
+void Example4(int integer2){ //Remainder test
+    cout<<integer2%2<<endl;
 }
 int main()
 {
@@ -26,5 +29,6 @@ int main()
     Example2(integer);
     int integer1 = 10;
     Example3(integer1);
+    Example4(21);
     return 0;
 }
